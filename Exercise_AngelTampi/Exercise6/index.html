@@ -1,0 +1,51 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir Calon Pegawai</title>
+</head>
+<body>
+    <form>
+        <!--Elemen pada formulir-->
+        <table> 
+            <tbody>
+            <fieldset>
+                <legend>Formulir Calon Pegawai</legend>
+                <label for="name">Nama:</label>
+                <input type="text" name="name" /><br>
+                <label for="address">Alamat: </label>
+                <input type="text" name="address" /><br>
+                <label for="password">password: </label>
+                <input type="password" name="password" /><br>
+
+                <label for="Name">Jenis Kelamin:
+                <input id="laki-laki" type="radio" name="laki-laki-perempuan"/>Laki-laki</label>
+                <label for="perempuan"> <input id="perempuan" type="radio"
+                name="perempuan-laki-laki">Perempuan</label><br>
+
+                <label for="Name">Bahasa pemograman yang dikuasai:
+                <input id="web" type="checkbox" name="favorite" value="web"> Web</label>
+                <label for="MOBILE"><input id="MOBILE" type="checkbox" name="favorite" value="MOBILE">MOBILE</label>
+                <label for="DESKTOP"><input id="DESKTOP" type="checkbox" name="favorite" value="DESKTOP">DESKTOP</label><br>
+                
+                <label for="name">Kota Asal: 
+                    <select>
+                    <option value="Semarang">Semarang</option>
+                    <option value="Jakarta">Jakarta</option>
+                    <option value="Manado">Manado</option>
+                    </select>
+                </label><br>
+
+                <label for="name"> Apa yang membuat kami harus memilih anda?:
+                    <textarea rows="4" cols="50"  placeholder="Tulis jawaban Anda di sini"></textarea><br>
+
+                    <button>Proses</button>
+                </label>
+
+            </fieldset>
+        </tbody>
+        </table>
+    </form>
+</body>
+</html>
